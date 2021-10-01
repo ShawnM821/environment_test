@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_09_27_183920) do
     t.string "title"
     t.string "author"
     t.float "price"
-    t.string "date"
+    t.date "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
